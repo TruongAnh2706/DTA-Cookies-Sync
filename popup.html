@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 320px;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #050608;
+      color: #F8FAFC;
+      margin: 0;
+      padding: 15px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #1E293B;
+      padding-bottom: 10px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #6366F1;
+      margin: 5px 0 2px 0;
+    }
+    .subtitle {
+      font-size: 11px;
+      color: #64748B;
+      margin: 0;
+    }
+    .status-panel {
+      background-color: #0D0F14;
+      border: 1px solid #1E293B;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 15px;
+    }
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+    .status-row:last-child {
+      margin-bottom: 0;
+    }
+    .lbl { color: #64748B; }
+    .val { font-weight: bold; }
+    .status-active { color: #22C55E; }
+    .status-inactive { color: #EF4444; }
+    
+    .port-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      font-size: 12px;
+    }
+    .port-input {
+      width: 70px;
+      background-color: #12141A;
+      border: 1px solid #1E293B;
+      color: white;
+      border-radius: 4px;
+      padding: 4px 6px;
+      text-align: center;
+    }
+    .port-input:focus {
+      border-color: #6366F1;
+      outline: none;
+    }
+
+    button {
+      width: 100%;
+      background-color: #6366F1;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 13px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #818CF8;
+    }
+    button:active {
+      transform: scale(0.98);
+    }
+    .footer {
+      text-align: center;
+      font-size: 10px;
+      color: #475569;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title">DTA Cookies Sync</div>
+    <div class="subtitle">Đồng bộ cookies YouTube & Bilibili thời gian thực</div>
+  </div>
+  
+  <div class="status-panel">
+    <div class="status-row">
+      <span class="lbl">Trạng thái đồng bộ:</span>
+      <span id="sync-status" class="val status-inactive">Chưa kiểm tra</span>
+    </div>
+    <div class="status-row">
+      <span class="lbl">Cập nhật cuối:</span>
+      <span id="sync-time" class="val">-</span>
+    </div>
+  </div>
+
+  <div class="port-section">
+    <span class="lbl">Cổng kết nối App (Port):</span>
+    <input type="number" id="sync-port" class="port-input" value="8732" min="1024" max="65535">
+  </div>
+
+  <button id="btn-sync">🔄 ĐỒNG BỘ NGAY</button>
+
+  <div class="footer">
+    Phát triển bởi DTA Studio - Chủ quản: Đức Trường
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

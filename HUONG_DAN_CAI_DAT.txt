@@ -1,0 +1,37 @@
+============================================================
+🛠️ HƯỚNG DẪN CÀI ĐẶT EXTENSION DTA COOKIES SYNC
+Sản phẩm của DTA STUDIO - Phát triển bởi Đức Trường AI
+============================================================
+
+Để cài đặt Extension này vào trình duyệt (Chrome, Edge, Cốc Cốc, Brave...) và đồng bộ cookies tự động, vui lòng thực hiện theo các bước cực kỳ đơn giản sau:
+
+👉 BƯỚC 1: MỞ TRANG QUẢN LÝ TIỆN ÍCH CỦA TRÌNH DUYỆT
+- Trên trình duyệt (ví dụ Google Chrome), click vào biểu tượng 3 chấm ở góc trên bên phải.
+- Chọn "Tiện ích mở rộng" (Extensions) -> "Quản lý tiện ích mở rộng" (Manage Extensions).
+- Hoặc gõ trực tiếp địa chỉ sau vào thanh tìm kiếm và bấm Enter:
+  chrome://extensions/  (nếu dùng Chrome)
+  edge://extensions/    (nếu dùng Microsoft Edge)
+
+👉 BƯỚC 2: BẬT CHẾ ĐỘ DÀNH CHO NHÀ PHÁT TRIỂN
+- Ở góc trên cùng bên phải của trang Quản lý tiện ích, tìm nút gạt "Chế độ dành cho nhà phát triển" (Developer mode).
+- Click gạt nút này sang trạng thái BẬT (ON).
+
+👉 BƯỚC 3: CÀI ĐẶT TIỆN ÍCH DTA COOKIES SYNC
+- Tìm nút "Tải tiện ích đã giải nén" (Load unpacked) ở góc trên bên trái trang quản lý.
+- Click vào nút này và trỏ đến thư mục "DTA-Cookies-Sync" chứa tệp này.
+- Bấm "Select Folder" (Chọn thư mục) để hoàn tất.
+
+👉 BƯỚC 4: GHIM VÀ KIỂM TRA ĐỒNG BỘ
+- Click vào biểu tượng mảnh ghép hình đốm xếp (Extensions) trên thanh công cụ của trình duyệt.
+- Ghim (Pin) tiện ích "DTA Cookies Sync" ra ngoài thanh công cụ để dễ quản lý.
+- Mở Tiện ích lên, đảm bảo điền đúng Cổng kết nối (Port) trùng với cấu hình trong DTA AutoDown (mặc định 8732) và bấm "ĐỒNG BỘ NGAY".
+- Khi app báo thành công và Extension hiện "LIVE (Kết nối tốt)", quá trình đồng bộ cookies đã hoạt động tự động hoàn toàn!
+
+------------------------------------------------------------
+📞 THÔNG TIN LIÊN HỆ CHÍNH THỨC DTA STUDIO
+- Chủ quản: Phạm Đức Trường
+- Điện thoại/Zalo: 0962.775.506
+- Email: ductruong.onl@gmail.com
+- Website: https://dta-studio.vercel.app/
+- Facebook: https://www.facebook.com/phamductruong17/
+============================================================
